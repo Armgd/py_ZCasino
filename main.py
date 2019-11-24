@@ -47,7 +47,7 @@ while wallet > 0:
         if wallet < 0:
             wallet = 0
         print('You have now ' + str(wallet) + '$ in your wallet')
-
+    # Stop loop if player don't have any money left 
     if wallet == 0:
         break
         print('You are out of money! GAME OVER')
